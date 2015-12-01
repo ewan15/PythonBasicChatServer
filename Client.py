@@ -48,7 +48,7 @@ if __name__ == '__main__':
         username = input("Please enter your username: ")
     else:
         username = raw_input("Please enter your username: ")
-    host = '192.168.10.61'
+    host = ''
     port = 55567
     buf = 1024
 

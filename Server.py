@@ -27,11 +27,11 @@ def handler(clientsocket, clientaddr):
 | |___\ V  V / (_| | | | \__ \ /\__/ /  __/ |   \ V /  __/ |    \n\
 \____/ \_/\_/ \__,_|_| |_|___/ \____/ \___|_|    \_/ \___|_|   "
 
-    WelcomeStr = WelcomeStr + welcomeStr2                                                        
-                                                   
-                                                   
-                                                                                                                   
-                                                                                                                   
+    WelcomeStr = WelcomeStr + welcomeStr2
+
+
+
+
     clientsocket.send(WelcomeStr.encode())
     while (connected == 1):
         try:
@@ -77,7 +77,7 @@ def handler(clientsocket, clientaddr):
     clientsocket.close()
 
 if __name__ == "__main__":
-    host = '192.168.10.61'
+    host = ''
     port = 55567
     buf = 1024
 
